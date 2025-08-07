@@ -68,7 +68,7 @@ export default function About() {
               <Clock className="h-20 w-20" strokeWidth={1} />
             </div>
             <p className="text-5xl font-light text-gray-800">
-              1800<span className="text-3xl">个</span>
+              1800+<span className="text-3xl">个</span>
             </p>
             <p className="text-gray-600 mt-4">媒体监测服务点</p>
           </div>
@@ -78,7 +78,7 @@ export default function About() {
               <BarChart3 className="h-20 w-20" strokeWidth={1} />
             </div>
             <p className="text-5xl font-light text-gray-800">
-              10000<span className="text-3xl">个</span>
+              10000+<span className="text-3xl">个</span>
             </p>
             <p className="text-gray-600 mt-4">媒体广告位</p>
           </div>
