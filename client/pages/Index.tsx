@@ -44,7 +44,8 @@ const companyCases: CompanyCase[] = [
     id: "wulianquan",
     name: "五粮泉",
     logo: "https://images.unsplash.com/photo-1606870620971-b4b65b67b7f7?w=200&h=200&fit=crop",
-    logo_index: "https://java-tlias-wlh.oss-cn-beijing.aliyuncs.com/58tc.png",
+    logo_index:
+      "https://java-tlias-wlh.oss-cn-beijing.aliyuncs.com/58tc.png",
     description: "酒类品牌",
   },
   {
