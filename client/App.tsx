@@ -12,6 +12,7 @@ import PlaceholderPage from "./pages/PlaceholderPage";
 import CooperationCases from "./pages/CooperationCases";
 import CaseDetail from "./pages/CaseDetail";
 import ChinaMapPage from "./pages/ChinaMapPage";
+import About from "./pages/About";
 
 const queryClient = new QueryClient();
 
