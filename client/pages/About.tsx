@@ -26,7 +26,7 @@ export default function About() {
             覆盖中国<span className="text-3xl font-bold text-gray-800 mx-1">26</span>个省份、含<span className="text-3xl font-bold text-gray-800 mx-1">300</span>余个城市、近<span className="text-3xl font-bold text-gray-800 mx-1">2000</span>个县市区域；
           </p>
           <p className="mb-4">
-            整合全国各大城市公路客运站媒体，
+            整合全国各大城市��路客运站媒体，
           </p>
           <p>
             致力为品牌提供渠道和市场下沉轨道新传播模式和落地服务；
@@ -78,7 +78,7 @@ export default function About() {
               <BarChart3 className="h-20 w-20" strokeWidth={1} />
             </div>
             <p className="text-5xl font-light text-gray-800">
-              10000+<span className="text-3xl">个</span>
+              10000<sup className="text-2xl">+</sup><span className="text-3xl">个</span>
             </p>
             <p className="text-gray-600 mt-4">媒体广告位</p>
           </div>
