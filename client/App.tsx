@@ -12,6 +12,7 @@ import PlaceholderPage from "./pages/PlaceholderPage";
 import CooperationCases from "./pages/CooperationCases";
 import CaseDetail from "./pages/CaseDetail";
 import ChinaMapPage from "./pages/ChinaMapPage";
+import About from "./pages/About";
 
 const queryClient = new QueryClient();
 
@@ -23,15 +24,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route
-            path="/about"
-            element={
-              <PlaceholderPage
-                title="关于我们"
-                description="了解TMG集团的发展历程和企业文化"
-              />
-            }
-          />
+          <Route path="/about" element={<About />} />
           <Route
             path="/business"
             element={
