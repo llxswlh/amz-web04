@@ -33,51 +33,54 @@ export default function About() {
           </p>
         </div>
 
+        {/* Divider */}
+        <div className="w-24 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent mx-auto mb-16"></div>
+
         {/* Why Choose Us Section */}
         <div className="text-center mb-12">
           <h2 className="text-2xl font-light text-gray-800">为什么选择我们</h2>
         </div>
 
         {/* Feature Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="bg-blue-50 rounded-3xl p-8 text-center flex flex-col items-center justify-center">
-            <div className="text-blue-300 mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+          <div className="bg-blue-50 rounded-3xl p-6 py-12 text-center flex flex-col items-center justify-center w-full h-80">
+            <div className="text-blue-300 mb-8">
               <Monitor className="h-20 w-20" strokeWidth={1} />
             </div>
             <p className="text-5xl font-light text-gray-800">
               16<span className="text-3xl">年</span>
             </p>
-            <p className="text-gray-600 mt-2">市场整合调研</p>
+            <p className="text-gray-600 mt-4">市场整合调研</p>
           </div>
 
-          <div className="bg-yellow-50 rounded-3xl p-8 text-center flex flex-col items-center justify-center">
-            <div className="text-yellow-400 mb-6">
+          <div className="bg-yellow-50 rounded-3xl p-6 py-12 text-center flex flex-col items-center justify-center w-full h-80">
+            <div className="text-yellow-400 mb-8">
               <MapPin className="h-20 w-20" strokeWidth={1} />
             </div>
             <p className="text-5xl font-light text-gray-800">
               26<span className="text-3xl">个</span>
             </p>
-            <p className="text-gray-600 mt-2">省市资源覆盖</p>
+            <p className="text-gray-600 mt-4">省市资源覆盖</p>
           </div>
 
-          <div className="bg-blue-50 rounded-3xl p-8 text-center flex flex-col items-center justify-center">
-            <div className="text-blue-300 mb-6">
+          <div className="bg-blue-50 rounded-3xl p-6 py-12 text-center flex flex-col items-center justify-center w-full h-80">
+            <div className="text-blue-300 mb-8">
               <Clock className="h-20 w-20" strokeWidth={1} />
             </div>
             <p className="text-5xl font-light text-gray-800">
               1800<span className="text-3xl">个</span>
             </p>
-            <p className="text-gray-600 mt-2">媒体监测服务点</p>
+            <p className="text-gray-600 mt-4">媒体监测服务点</p>
           </div>
 
-          <div className="bg-yellow-50 rounded-3xl p-8 text-center flex flex-col items-center justify-center">
-            <div className="text-yellow-400 mb-6">
+          <div className="bg-yellow-50 rounded-3xl p-6 py-12 text-center flex flex-col items-center justify-center w-full h-80">
+            <div className="text-yellow-400 mb-8">
               <BarChart3 className="h-20 w-20" strokeWidth={1} />
             </div>
             <p className="text-5xl font-light text-gray-800">
               10000<span className="text-3xl">个</span>
             </p>
-            <p className="text-gray-600 mt-2">媒体广告位</p>
+            <p className="text-gray-600 mt-4">媒体广告位</p>
           </div>
         </div>
       </div>
