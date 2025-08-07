@@ -119,7 +119,7 @@ export default function Header() {
                       to="/bus-stations"
                       className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-blue-600 transition-colors"
                     >
-                      全国公路客运站
+                      全国公路客运站媒体
                     </Link>
                     <Link
                       to="/bus-media"
@@ -131,13 +131,13 @@ export default function Header() {
                       to="/highway-media"
                       className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-blue-600 transition-colors"
                     >
-                      全国公路媒体
+                      全国户外LED大屏
                     </Link>
                     <Link
                       to="/other-media"
                       className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-blue-600 transition-colors"
                     >
-                      其他媒体
+                      全国社区媒体
                     </Link>
                   </div>
                 )}
