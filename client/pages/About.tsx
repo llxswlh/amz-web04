@@ -1,4 +1,4 @@
-import { Layout } from "@/components/Layout";
+import Layout from "@/components/Layout";
 import { Clock, Monitor, MapPin, BarChart3 } from "lucide-react";
 
 export default function About() {
